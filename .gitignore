@@ -1,3 +1,6 @@
 terraform.tfvars
 .terraform
 terraform.tfstate*
+
+ca.crt
+account.json

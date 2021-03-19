@@ -36,7 +36,7 @@ resource "google_container_node_pool" "this" {
       node_metadata = "GKE_METADATA_SERVER"
     }
   }
-  node_count = 1
+  node_count = 3
   upgrade_settings {
     max_surge       = 1
     max_unavailable = 0
